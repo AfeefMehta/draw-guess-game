@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Painter.io</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+</head>
+<body>
+    <h1>Welcome to PAINTER.IO</h1>
+    <p>A game where you draw stuff and your friends guess it!</p><br>
+    
+    <!-- Send username from form -->
+    <form action="/game" method="POST">
+        <label for="username">Username: </label>
+        <input id="username" name="username" type="text">
+        <input type="submit" value="Join random server">
+    </form>
+</body>
+</html>
